@@ -36,7 +36,7 @@
             </div>
             <div class="col-12 col-md-5  info__box">
                 <div class="card">
-
+                    <img src="http://beta.peexoo.ai/img/peexoo234.ab7075f3.png" class="	d-block d-sm-none" style="width: 7em;margin-bottom: 10px">
                     <div class="talk__text">
                         <span>Live.</span>
                         <span>Snap.</span>

@@ -14,6 +14,13 @@ body {
     opacity: 0;
 }
 
+.h-logo {
+    width: 8em;
+    position: absolute;
+    z-index: 10000;
+    left: 20px;
+    top: 10px;
+}
 
 .carousel-fade .carousel-inner .item {
     opacity: 0;

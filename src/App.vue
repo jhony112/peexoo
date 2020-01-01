@@ -75,13 +75,6 @@
 
     }
 
-    .h-logo {
-        width: 8em;
-        position: absolute;
-        z-index: 10000;
-        left: 20px;
-        top: 10px;
-    }
 
     #nav {
         padding: 30px;
