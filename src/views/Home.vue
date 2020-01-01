@@ -183,7 +183,7 @@
         border: unset !important;
         min-height: 500px;
         background: #ffffff !important;
-        padding: 100px 30px 50px 50px;
+        padding: 100px 50px 50px 50px;
         border-top-left-radius: 80px !important;
         border-bottom-right-radius: 80px !important;
 
@@ -214,7 +214,7 @@
     }
 
     .btn {
-        padding: 15px 20px !important;
+        padding: 15px 15px !important;
         /*border-radius: 30px!important;*/
     }
 
