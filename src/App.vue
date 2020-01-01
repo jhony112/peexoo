@@ -26,10 +26,10 @@
                 </div>
             </nav>
         </header>
-        <main role="main">
-            <img src="http://beta.peexoo.ai/img/peexoo234.ab7075f3.png" class="h-logo">
+        <div role="main" >
+            <img src="http://beta.peexoo.ai/img/peexoo234.ab7075f3.png" class="h-logo d-none d-md-block">
             <router-view/>
-        </main>
+        </div>
 
     </div>
 </template>
@@ -57,16 +57,18 @@
     }
 </script>
 <style scoped>
+    @import "assets/fonts/fonts.css";
     @import "assets/css/util.css";
     @import "assets/css/style.css";
     @import "assets/css/slick-theme.css";
 
     #app {
-        font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+        font-family: 'proxima_nova', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
+        width: 100vw;
     }
 
     main {
@@ -95,15 +97,8 @@
         color: #42b983;
     }
 
-    html {
-        position: relative;
-        min-height: 100%;
-    }
 
-    body {
-        /* Margin bottom by footer height */
-        margin-bottom: 60px;
-    }
+
 
     .footer {
         position: absolute;
@@ -135,5 +130,8 @@
     .navbar-brand img {
 
         width: 120px;
+    }
+    .bg-dark{
+       background: #391D0c!important;
     }
 </style>

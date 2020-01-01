@@ -1,4 +1,9 @@
-
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    height: 100%;
+    width: 100%
+}
 .navbar {
     opacity: 1;
     transition: opacity 0.5s ease;
