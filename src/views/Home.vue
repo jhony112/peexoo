@@ -218,7 +218,7 @@ padding-top: 80px;
     }
 
     .btn {
-        padding: 15px 18px !important;
+        padding: 15px 15px !important;
         font-size: 1.1em;
         margin-bottom: 10px;
         /*border-radius: 30px!important;*/
